@@ -1,0 +1,62 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    background-color: #3c3c3c;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: -30px -100px -50px -100px;
+    font-family: "Bebas Neue";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.background-text {
+    color: #363636;
+    font-size: 80px;
+    text-align: center;
+}
+
+#overlay {
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+/*    box-shadow:*/
+}
+
+#content {
+    vertical-align: middle;
+    text-shadow: 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #57abff;
+    transition: all 0.5s;
+    word-wrap: break-word;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2a8bed;
+}
+
+.footer {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    background-color: #383636;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 7px;
+    margin-left: 100px;
+}
